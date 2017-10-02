@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid black;
+  margin: 0px 0px 15px 0px;
 }
 .header a {
   color: black;
@@ -20,36 +21,44 @@
   margin: 15px;
 }
 .menu {
-  display: inline-block;
+  display: inline-flex;
   margin: 15px;
 }
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .columnlarge {
+  display: flex;
+  flex-direction: column;
   width: 630px;
-  border: 1px solid black;
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
+.sidestories{
+display: inline-flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
 .columnmedium {
+  display: flex;
+  flex-direction: column;
   width: 300px;
-  border: 1px solid black;
+  margin: 0 15px;
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
 .columnsmall {
+  display: flex;
+  flex-direction: column;
   width: 240px;
-  border: 1px solid black;
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
 #mainstory {
-  display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
 }
 #mainstoryhead {
@@ -58,43 +67,53 @@
   font-size: 40px;
   color: white;
   padding: 20px 30px;
+  margin: 0px
 }
 #earth {
-  display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
-  background-size: contain;
+  width: 275px;
+  height: 275px;
 }
 #earth p{
-  display: flex;
   font-family: georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  padding: 20px 30px;
+  text-align: center;
+  margin: 0;
+}
+#orca {
+  width: 275px;
+  height: 275px;
+}
+#burger {
+  width: 275px;
+  height: 275px;
 }
 #camera {
-  display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
   background-size: contain;
+  width: 275px;
+  height: 275px;
 }
 #camera p{
-  display: flex;
   font-family: georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  padding: 20px 30px;
+  text-align: center;
+  margin: 0;
 }
 #cats {
-  display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
-  background-size: contain;
+  background-size: auto;
+  width: 300px;
+  height: 240px;
 }
 #cats p{
-  display: flex;
   font-family: georgia;
   font-weight: bold;
   font-size: 30px;
+  text-align: center;
   color: white;
-  padding: 20px 30px;
 }
