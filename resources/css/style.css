@@ -14,6 +14,7 @@
 }
 .aqua {
   color: MediumAquamarine;
+  padding: 10px;
 }
 .logo {
   display: inline-flex;
@@ -116,4 +117,49 @@ justify-content: space-between;
   font-size: 30px;
   text-align: center;
   color: white;
+}
+#bites {
+  display: flex;
+  font-size: 12px;
+  font-family: Veranda;
+  color: DimGray;
+  background-color: WhiteSmoke;
+  padding: 10px;
+  margin: 0;
+  border-bottom: 1px solid black;
+}
+#bitesheader {
+  font-size: 16px;
+  font-weight: bold;
+}
+#footer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 200px
+}
+#footertitle {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 15px;
+  margin: auto;
+}
+#footermenu {
+  margin: auto;
+}
+#footermenu a {
+  color: black;
+  padding: 15px;
+}
+#footernav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
